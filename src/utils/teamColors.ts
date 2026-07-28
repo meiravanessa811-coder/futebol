@@ -1,0 +1,68 @@
+import { TeamColor } from '../types';
+
+export const PRESET_TEAM_COLORS: TeamColor[] = [
+  {
+    name: 'Colete Amarelo',
+    hex: '#eab308',
+    badgeBg: 'bg-amber-500',
+    badgeText: 'text-amber-950',
+    border: 'border-amber-400',
+    headerBg: 'bg-amber-500/15 text-amber-900 dark:text-amber-300',
+  },
+  {
+    name: 'Colete Azul',
+    hex: '#2563eb',
+    badgeBg: 'bg-blue-600',
+    badgeText: 'text-white',
+    border: 'border-blue-500',
+    headerBg: 'bg-blue-500/15 text-blue-900 dark:text-blue-300',
+  },
+  {
+    name: 'Colete Vermelho',
+    hex: '#dc2626',
+    badgeBg: 'bg-red-600',
+    badgeText: 'text-white',
+    border: 'border-red-500',
+    headerBg: 'bg-red-500/15 text-red-900 dark:text-red-300',
+  },
+  {
+    name: 'Colete Verde',
+    hex: '#16a34a',
+    badgeBg: 'bg-emerald-600',
+    badgeText: 'text-white',
+    border: 'border-emerald-500',
+    headerBg: 'bg-emerald-500/15 text-emerald-900 dark:text-emerald-300',
+  },
+  {
+    name: 'Colete Preto',
+    hex: '#18181b',
+    badgeBg: 'bg-zinc-800',
+    badgeText: 'text-zinc-100',
+    border: 'border-zinc-700',
+    headerBg: 'bg-zinc-800/15 text-zinc-900 dark:text-zinc-200',
+  },
+  {
+    name: 'Colete Branco',
+    hex: '#f4f4f5',
+    badgeBg: 'bg-zinc-100',
+    badgeText: 'text-zinc-900',
+    border: 'border-zinc-300',
+    headerBg: 'bg-zinc-200/50 text-zinc-800 dark:text-zinc-100',
+  },
+  {
+    name: 'Colete Laranja',
+    hex: '#ea580c',
+    badgeBg: 'bg-orange-600',
+    badgeText: 'text-white',
+    border: 'border-orange-500',
+    headerBg: 'bg-orange-500/15 text-orange-900 dark:text-orange-300',
+  },
+  {
+    name: 'Colete Roxo',
+    hex: '#9333ea',
+    badgeBg: 'bg-purple-600',
+    badgeText: 'text-white',
+    border: 'border-purple-500',
+    headerBg: 'bg-purple-500/15 text-purple-900 dark:text-purple-300',
+  },
+];

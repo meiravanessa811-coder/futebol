@@ -1,0 +1,6 @@
+{
+  "name": "Horário Fut",
+  "description": "Aplicativo para separar e balancear times de pelada, gerenciar jogos, placar, artilharia e pagamentos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
